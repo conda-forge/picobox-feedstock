@@ -1,11 +1,11 @@
-About picobox
-=============
+About picobox-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/picobox-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ikalnytskyi/picobox
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/picobox-feedstock/blob/main/LICENSE.txt)
 
 Summary: Dependency injection framework designed with Python in mind.
 
