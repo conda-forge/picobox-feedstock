@@ -1,5 +1,5 @@
 {% set name = "picobox" %}
-{% set version = "2.2.0" %}
+{% set version = "3.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c446ea34b5ee396ab8dc7cbed8f036e73e52403593088656b9b45b7d6382c926
+  sha256: 59d665ee82cafe2de80a6bf9dff407d502bb4688125398eaca05dbe02dbfb07a
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/ikalnytskyi/picobox
-  summary: 'Dependency injection framework designed with Python in mind.'
+  summary: Dependency injection framework designed with Python in mind.
   description: |
     Picobox is opinionated dependency injection framework 
     designed to be clean, pragmatic and with Python in mind. 
