@@ -1,5 +1,5 @@
 {% set name = "picobox" %}
-{% set version = "3.0.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 59d665ee82cafe2de80a6bf9dff407d502bb4688125398eaca05dbe02dbfb07a
+  sha256: 114da1b5606b2f615e8b0eb68d04198ad9de75af5adbcf5b36fe4f664ab927b6
 
 build:
   noarch: python
@@ -16,12 +16,12 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.7
+    - python >=3.8
 
 test:
   imports:
